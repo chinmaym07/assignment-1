@@ -1,3 +1,21 @@
+# Demo Video
+
+https://drive.google.com/file/d/1Yc5xo8OgxGmv2KiJhva8w5vCtWqUVow4/view?usp=sharing
+
+# Sample Login Creds
+
+  ```
+  {
+    username: "test1",
+    password: "pass1",
+  },
+  {
+    username: "test2",
+    password: "pass2",
+  }
+  ```
+
+---
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

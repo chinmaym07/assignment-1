@@ -1,0 +1,26 @@
+.field {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.input-label {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #054231;
+  margin: 5px;
+}
+
+.input-elem {
+  border-radius: 15px;
+  border: 1px solid #b7b7b7;
+  padding: 5px 5px 5px 10px;
+  font-size: 18px;
+  transition: 0.2s;
+}
+.input-elem:focus {
+  outline: none;
+  border: 1px solid #64d488;
+}
+.input-elem::placeholder {
+  color: #bebebe;
+}

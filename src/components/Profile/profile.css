@@ -1,0 +1,157 @@
+
+.card { 
+  height: 627px;
+  padding: 15px;
+  margin-top: 40px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  background: #fff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.field {
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+}
+input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload {
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  padding: 6px;
+  cursor: pointer;
+  background: linear-gradient(#e66465, #9198e5);
+  margin-bottom: 25px;
+}
+
+.img-wrap {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.img-upload:before {
+  font-size: 90px;
+  position: absolute;
+  padding-top: 80px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #e66465;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #fff;
+}
+.img-upload:hover:before {
+  opacity: 1;
+}
+img {
+  width: 200px;
+  height: 200px;
+}
+
+.input-label {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #040f0c;
+  margin: 5px;
+}
+
+.input-elem {
+  border-radius: 15px;
+  border: 1px solid #b7b7b7;
+  padding: 5px 5px 5px 10px;
+  font-size: 18px;
+  transition: 0.2s;
+}
+.input-elem:focus {
+  outline: none;
+  border: 1px solid #9198e5;
+}
+.input-elem::placeholder {
+  color: #bebebe;
+}
+.name {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #040f0c;
+  max-width: 220px;
+  overflow-wrap: break-word;
+}
+.details{
+  text-align: center;
+  color: #040f0c;
+  font-weight: 700;  
+  max-width: 220px;
+  overflow-wrap: break-word;
+}
+
+button[type="submit"] {
+  position: relative;
+  color: #040f0c;
+  letter-spacing: 1px;
+  margin: 20px;
+  font-size: 18px;
+  padding: 10px;
+  text-align: center;
+  transition: 0.5s;
+  border-radius: 10px;
+  cursor: pointer;
+  border-radius: 25px;
+  border: none;
+  background: #9198e5;
+}
+.save {
+  font-weight: 600;
+  letter-spacing: 1px;
+  width: 180px;
+}
+.edit {
+  color: #fff;
+  width: 180px;
+}
+button[type="submit"]:hover {
+  left: 0;
+  color: #fff;
+  box-shadow: 0px 0px 20px 0px #9198e5;
+}
+button[type="submit"]:focus {
+  outline: none;
+}
+
+.input-fields {
+  padding: 10px;
+}
+.save:hover,.edit:hover{
+  box-shadow: 0px 0px 20px 0px #9198e5;
+}
+.img-upload{
+  background-image: url("../../assets/images/profile.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+}
+.img-upload:hover{
+  background-image: url("../../assets/images/upload.png");
+  background-size: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
